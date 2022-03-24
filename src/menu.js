@@ -176,8 +176,8 @@ function createMenuItem(group, name, price, description){
 
     const img = document.createElement("img");
     img.classList.add("menu-item-image");
-    img.src = `./images/menu-items/${group}/${name}.png`;
-    img.alt = `${name} ${group}`;
+    img.src = `./images/menu-items/${group}/${name.replace(/%20/g, " ")}.png`;
+    img.alt = `${name.replace(/%20/g, " ")} ${group}`;
 
     const menuItemText = document.createElement("div");
     menuItemText.classList.add("menu-item-text");
