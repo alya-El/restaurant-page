@@ -27,7 +27,7 @@ function menuNavLink(name){
 function appendImg(name){
     const img = document.createElement("img");
     img.classList.add("logo");
-    img.src = `./images/${name}-logo.svg`;
+    img.src = `./dist/images/${name}-logo.svg`;
     img.alt = `${name} logo`;
 
     return img;
@@ -176,7 +176,7 @@ function createMenuItem(group, name, price, description){
 
     const img = document.createElement("img");
     img.classList.add("menu-item-image");
-    img.src = `./images/menu-items/${group}/${name.replace(/%20/g, " ")}.png`;
+    img.src = `./dist/images/menu-items/${group}/${name.replace(/%20/g, " ")}.png`;
     img.alt = `${name.replace(/%20/g, " ")} ${group}`;
 
     const menuItemText = document.createElement("div");
