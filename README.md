@@ -1,10 +1,10 @@
 # restaurant-page
 This project was completed for The Odin Project. The project's aim was to make a functional multi-page restaurant website using WebPack to bundle files and JavaScript to generate the entire contents of the website.
 
-###Completed:
+### Completed:
 - Menu
 
-###To Be Completed:
+### To Be Completed:
 - About
 - Contact
 
